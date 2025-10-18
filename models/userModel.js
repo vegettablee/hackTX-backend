@@ -5,7 +5,7 @@ const UserSchema = {
   birthday: String,
  
   income: Number,
-  creditScore: String,
+  creditScore: Number,
   
   vehicleCondition: String, // 'NEW' or 'USED'
   fuelType: String, // 'GAS', 'HYBRID', or 'ELECTRIC'
