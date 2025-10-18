@@ -1,11 +1,21 @@
 const express = require('express');
-    const app = express();
-    const PORT = 3000;
+const app = express();
+const PORT = 3000;
 
-    app.get('/', (req, res) => {
-      res.send('Hello, Express!');
-    });
+// Import routes
+const userRoutes = require('./routes/userRoutes');
 
-    app.listen(PORT, () => {
-      console.log(`Server listening on port ${PORT}`);
-    });
+// Middleware
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+
+// Routes
+app.get('/', (req, res) => {
+  res.send('Hello, Express!');
+});
+
+app.use('/api/users', userRoutes);
+
+app.listen(PORT, () => {
+  console.log(`Server listening on port ${PORT}`);
+});
