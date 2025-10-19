@@ -7,6 +7,7 @@ const app = express();
 const recommendationRoute = require('./routes/recommendationRoute');
 
 // Only parse JSON for requests that should have a body
+
 app.use((req, res, next) => {
   if (req.method !== 'GET' && req.method !== 'HEAD') {
     express.json()(req, res, next);
