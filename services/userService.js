@@ -22,8 +22,8 @@ const getUserById = async (userId) => {
   }
 }
 
-const createUser = async (id) => { 
-
+const createUser = async (id, password) => { 
+   
 }
 
 module.exports = getUserById, createUser

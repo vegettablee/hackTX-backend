@@ -3,6 +3,7 @@ const {
   PutItemCommand,
   GetItemCommand,
 } = require("@aws-sdk/client-dynamodb");
+const { marshall } = require("@aws-sdk/util-dynamodb");
 const { dynamo, TableName } = require('./config/dynamoDB');
 const fs = require('fs');
 const path = require('path');
@@ -16,8 +17,10 @@ async function insertFakeVehicles() {
 
   try {
     for (const vehicle of fakeVehicles) {
-      await dynamo.send(new PutItemCommand({ TableName, Item: vehicle }));
-      console.log(`✅ Inserted vehicle: ${vehicle.id.S} - ${vehicle.vehicleModel.S}`);
+      // Convert plain JSON to DynamoDB format using marshall
+      const marshalledVehicle = marshall(vehicle);
+      await dynamo.send(new PutItemCommand({ TableName, Item: marshalledVehicle }));
+      console.log(`✅ Inserted vehicle: ${vehicle.id} - ${vehicle.vehicleModel}`);
     }
     console.log("✅ All fake vehicles inserted successfully!");
   } catch (err) {
@@ -58,7 +61,7 @@ async function runTests() {
   // Test retrieving some vehicles
   await getVehicle("VEHICLE#001");
   await getVehicle("VEHICLE#005");
-  await getVehicle("VEHICLE#010");
+  await getVehicle("VEHICLE#009");
 
   console.log("\n✅ All vehicle tests completed!");
 }

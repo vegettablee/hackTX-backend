@@ -1,6 +1,6 @@
 ## ENDPOINTS
 
-### POST /recommend-cars
+### POST /cars/recommend-cars
 
 Recommends vehicles tailored to a user's preferences and financial profile, along with customized payment plans.
 
@@ -13,13 +13,14 @@ The client must send a JSON object following the **UserProfileSchema** structure
   "id": "string",
   "name": "string",
   "password": "string",
-  "birthday": "string",
   "userSpecific": {
     "income": "number",
     "creditScore": "number"
   },
-  "vehicleCondition": "string",  // 'NEW' or 'USED'
+  "monthlyBudget": "number",      // Optional: desired monthly payment budget
+  "vehicleType": "string",        // Optional: 'SEDAN', 'SUV', 'HATCHBACK', or 'TRUCK'
   "fuelType": "string",           // 'GAS', 'HYBRID', or 'ELECTRIC'
+  "vehicleCondition": "string",   // 'NEW' or 'USED'
   "vehicleYearRange": ["number", "number"]  // [minYear, maxYear]
 }
 ```
@@ -36,6 +37,7 @@ Returns an array of **paymentSchema** objects (as defined in `models/paymentMode
 [
   {
     "vehicleProfile": {
+      "id": "string",
       "vehicleDetails": {
         "vehicleCondition": "string",  // 'NEW' or 'USED'
         "fuelType": "string"            // 'GAS', 'HYBRID', or 'ELECTRIC'
@@ -44,13 +46,14 @@ Returns an array of **paymentSchema** objects (as defined in `models/paymentMode
       "vehicleYear": "number",
       "vehicleModel": "string",
       "vehicleTrim": "string",          // 'BASE', 'SPORT', or 'LIMITED'
+      "vehicleType": "string",          // 'SEDAN', 'SUV', 'HATCHBACK', or 'TRUCK'
       "mileage": "number"
     },
     "interestRate": "number",
     "termMonths": "number",
     "downPayment": "number",
-    "monthlyPayment" : "number,
-  },
+    "monthlyPayment": "number"
+  }
   // ... more payment schemas
 ]
 ```
@@ -59,19 +62,20 @@ Returns an array of **paymentSchema** objects (as defined in `models/paymentMode
 
 **Request:**
 ```json
-POST /recommend-cars
+POST /cars/recommend-cars
 {
-  "id": "user123",
-  "name": "John Doe",
-  "password": "hashedpassword",
-  "birthday": "1990-05-15",
+  "id": "USER#001",
+  "name": "Alex Ramirez",
+  "password": "securePass123",
   "userSpecific": {
-    "income": 75000,
+    "income": 78000,
     "creditScore": 720
   },
-  "vehicleCondition": "NEW",
+  "monthlyBudget": 800,
+  "vehicleType": "SUV",
   "fuelType": "HYBRID",
-  "vehicleYearRange": [2022, 2025]
+  "vehicleCondition": "USED",
+  "vehicleYearRange": [2019, 2024]
 }
 ```
 
@@ -80,20 +84,22 @@ POST /recommend-cars
 [
   {
     "vehicleProfile": {
+      "id": "VEHICLE#006",
       "vehicleDetails": {
-        "vehicleCondition": "NEW",
+        "vehicleCondition": "USED",
         "fuelType": "HYBRID"
       },
-      "msrp": 32000,
-      "vehicleYear": 2024,
-      "vehicleModel": "Toyota Camry",
+      "msrp": 27000,
+      "vehicleYear": 2022,
+      "vehicleModel": "Toyota Corolla Cross",
       "vehicleTrim": "SPORT",
-      "mileage": 0
+      "vehicleType": "SUV",
+      "mileage": 24000
     },
-    "interestRate": 4.5,
+    "interestRate": 5,
     "termMonths": 60,
-    "downPayment": 6400,
-    "monthlyPayment" : 350,
+    "downPayment": 4050,
+    "monthlyPayment": 434
   }
 ]
 ```
