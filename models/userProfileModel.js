@@ -15,8 +15,12 @@ const UserProfileSchema = {
   vehicleType : String, // SEDAN, SUV, HATCHBACK, or TRUCK
   fuelType: String, // 'GAS', 'HYBRID', or 'ELECTRIC'
   vehicleCondition: String, // 'NEW' or 'USED'
-  vehicleYearRange: Array // [minYear, maxYear]
-  
+  vehicleYearRange: Array, // [minYear, maxYear]
+
+  vehicleResults : { 
+    
+  }
+
 };
 
 module.exports = UserProfileSchema;

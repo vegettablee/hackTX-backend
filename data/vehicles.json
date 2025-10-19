@@ -1,276 +1,55 @@
 [
   {
-    "id": "VEHICLE#001",
+    "id": "VEHICLE#030",
     "vehicleDetails": {
       "vehicleCondition": "USED",
       "fuelType": "GAS"
     },
-    "msrp": 16000,
-    "vehicleYear": 2017,
-    "vehicleModel": "Toyota Corolla",
+    "msrp": 8900,
+    "vehicleYear": 2011,
+    "vehicleModel": "Toyota Camry",
     "vehicleTrim": "BASE",
     "vehicleType": "SEDAN",
-    "mileage": 78000
+    "mileage": 142000
   },
   {
-    "id": "VEHICLE#002",
-    "vehicleDetails": {
-      "vehicleCondition": "USED",
-      "fuelType": "GAS"
-    },
-    "msrp": 14500,
-    "vehicleYear": 2016,
-    "vehicleModel": "Toyota Yaris",
-    "vehicleTrim": "BASE",
-    "vehicleType": "HATCHBACK",
-    "mileage": 82000
-  },
-  {
-    "id": "VEHICLE#003",
+    "id": "VEHICLE#031",
     "vehicleDetails": {
       "vehicleCondition": "USED",
       "fuelType": "HYBRID"
     },
-    "msrp": 18000,
-    "vehicleYear": 2018,
-    "vehicleModel": "Toyota Prius C",
-    "vehicleTrim": "SPORT",
-    "vehicleType": "HATCHBACK",
-    "mileage": 67000
-  },
-  {
-    "id": "VEHICLE#004",
-    "vehicleDetails": {
-      "vehicleCondition": "NEW",
-      "fuelType": "HYBRID"
-    },
-    "msrp": 32000,
-    "vehicleYear": 2025,
-    "vehicleModel": "Toyota Camry Hybrid",
-    "vehicleTrim": "SPORT",
-    "vehicleType": "SEDAN",
-    "mileage": 0
-  },
-  {
-    "id": "VEHICLE#005",
-    "vehicleDetails": {
-      "vehicleCondition": "NEW",
-      "fuelType": "GAS"
-    },
-    "msrp": 36000,
-    "vehicleYear": 2025,
-    "vehicleModel": "Toyota RAV4",
-    "vehicleTrim": "LIMITED",
-    "vehicleType": "SUV",
-    "mileage": 0
-  },
-  {
-    "id": "VEHICLE#006",
-    "vehicleDetails": {
-      "vehicleCondition": "USED",
-      "fuelType": "HYBRID"
-    },
-    "msrp": 27000,
-    "vehicleYear": 2022,
-    "vehicleModel": "Toyota Corolla Cross",
-    "vehicleTrim": "SPORT",
-    "vehicleType": "SUV",
-    "mileage": 24000
-  },
-  {
-    "id": "VEHICLE#007",
-    "vehicleDetails": {
-      "vehicleCondition": "NEW",
-      "fuelType": "HYBRID"
-    },
-    "msrp": 51000,
-    "vehicleYear": 2025,
-    "vehicleModel": "Toyota Highlander Hybrid",
-    "vehicleTrim": "LIMITED",
-    "vehicleType": "SUV",
-    "mileage": 0
-  },
-  {
-    "id": "VEHICLE#008",
-    "vehicleDetails": {
-      "vehicleCondition": "NEW",
-      "fuelType": "HYBRID"
-    },
-    "msrp": 55000,
-    "vehicleYear": 2025,
-    "vehicleModel": "Toyota Tacoma Hybrid",
-    "vehicleTrim": "LIMITED",
-    "vehicleType": "TRUCK",
-    "mileage": 0
-  },
-  {
-    "id": "VEHICLE#009",
-    "vehicleDetails": {
-      "vehicleCondition": "NEW",
-      "fuelType": "ELECTRIC"
-    },
-    "msrp": 60000,
-    "vehicleYear": 2025,
-    "vehicleModel": "Toyota bZ4X",
-    "vehicleTrim": "LIMITED",
-    "vehicleType": "SUV",
-    "mileage": 0
-  }, 
-  {
-    "id": "VEHICLE#010",
-    "vehicleDetails": {
-      "vehicleCondition": "USED",
-      "fuelType": "GAS"
-    },
-    "msrp": 13500,
-    "vehicleYear": 2015,
-    "vehicleModel": "Toyota Matrix",
-    "vehicleTrim": "BASE",
-    "vehicleType": "HATCHBACK",
-    "mileage": 92000
-  },
-  {
-    "id": "VEHICLE#011",
-    "vehicleDetails": {
-      "vehicleCondition": "USED",
-      "fuelType": "GAS"
-    },
-    "msrp": 17500,
-    "vehicleYear": 2018,
-    "vehicleModel": "Toyota Corolla LE",
-    "vehicleTrim": "SPORT",
-    "vehicleType": "SEDAN",
-    "mileage": 63000
-  },
-  {
-    "id": "VEHICLE#012",
-    "vehicleDetails": {
-      "vehicleCondition": "USED",
-      "fuelType": "HYBRID"
-    },
-    "msrp": 22500,
-    "vehicleYear": 2019,
-    "vehicleModel": "Toyota Prius",
-    "vehicleTrim": "LIMITED",
-    "vehicleType": "HATCHBACK",
-    "mileage": 51000
-  },
-  {
-    "id": "VEHICLE#013",
-    "vehicleDetails": {
-      "vehicleCondition": "USED",
-      "fuelType": "HYBRID"
-    },
-    "msrp": 28000,
-    "vehicleYear": 2021,
-    "vehicleModel": "Toyota RAV4 Hybrid",
-    "vehicleTrim": "SPORT",
-    "vehicleType": "SUV",
-    "mileage": 34000
-  },
-  {
-    "id": "VEHICLE#014",
-    "vehicleDetails": {
-      "vehicleCondition": "USED",
-      "fuelType": "HYBRID"
-    },
-    "msrp": 26500,
-    "vehicleYear": 2020,
-    "vehicleModel": "Toyota Corolla Cross Hybrid",
-    "vehicleTrim": "BASE",
-    "vehicleType": "SUV",
-    "mileage": 28000
-  },
-  {
-    "id": "VEHICLE#015",
-    "vehicleDetails": {
-      "vehicleCondition": "NEW",
-      "fuelType": "HYBRID"
-    },
-    "msrp": 33500,
-    "vehicleYear": 2025,
+    "msrp": 10400,
+    "vehicleYear": 2011,
     "vehicleModel": "Toyota Camry Hybrid",
     "vehicleTrim": "LIMITED",
     "vehicleType": "SEDAN",
-    "mileage": 0
+    "mileage": 133000
   },
   {
-    "id": "VEHICLE#016",
-    "vehicleDetails": {
-      "vehicleCondition": "NEW",
-      "fuelType": "ELECTRIC"
-    },
-    "msrp": 59000,
-    "vehicleYear": 2025,
-    "vehicleModel": "Toyota bZ4X XLE",
-    "vehicleTrim": "LIMITED",
-    "vehicleType": "SUV",
-    "mileage": 0
-  },
-  {
-    "id": "VEHICLE#017",
-    "vehicleDetails": {
-      "vehicleCondition": "NEW",
-      "fuelType": "HYBRID"
-    },
-    "msrp": 52000,
-    "vehicleYear": 2025,
-    "vehicleModel": "Toyota Grand Highlander Hybrid",
-    "vehicleTrim": "LIMITED",
-    "vehicleType": "SUV",
-    "mileage": 0
-  },
-  {
-    "id": "VEHICLE#018",
-    "vehicleDetails": {
-      "vehicleCondition": "NEW",
-      "fuelType": "HYBRID"
-    },
-    "msrp": 48000,
-    "vehicleYear": 2024,
-    "vehicleModel": "Toyota Tacoma Hybrid",
-    "vehicleTrim": "SPORT",
-    "vehicleType": "TRUCK",
-    "mileage": 0
-  },
-  {
-    "id": "VEHICLE#019",
-    "vehicleDetails": {
-      "vehicleCondition": "USED",
-      "fuelType": "GAS"
-    },
-    "msrp": 19500,
-    "vehicleYear": 2019,
-    "vehicleModel": "Toyota CH-R",
-    "vehicleTrim": "BASE",
-    "vehicleType": "SUV",
-    "mileage": 59000
-  },
-  {
-    "id": "VEHICLE#020",
-    "vehicleDetails": {
-      "vehicleCondition": "NEW",
-      "fuelType": "HYBRID"
-    },
-    "msrp": 41000,
-    "vehicleYear": 2025,
-    "vehicleModel": "Toyota Sienna",
-    "vehicleTrim": "SPORT",
-    "vehicleType": "SUV",
-    "mileage": 0
-  }, 
-  {
-    "id": "VEHICLE#033",
+    "id": "VEHICLE#032",
     "vehicleDetails": {
       "vehicleCondition": "USED",
       "fuelType": "GAS"
     },
     "msrp": 11800,
-    "vehicleYear": 2013,
-    "vehicleModel": "Toyota Corolla L",
+    "vehicleYear": 2014,
+    "vehicleModel": "Toyota Camry",
+    "vehicleTrim": "SPORT",
+    "vehicleType": "SEDAN",
+    "mileage": 107500
+  },
+  {
+    "id": "VEHICLE#033",
+    "vehicleDetails": {
+      "vehicleCondition": "USED",
+      "fuelType": "HYBRID"
+    },
+    "msrp": 13900,
+    "vehicleYear": 2014,
+    "vehicleModel": "Toyota Camry Hybrid",
     "vehicleTrim": "BASE",
     "vehicleType": "SEDAN",
-    "mileage": 104000
+    "mileage": 98500
   },
   {
     "id": "VEHICLE#034",
@@ -278,12 +57,12 @@
       "vehicleCondition": "USED",
       "fuelType": "GAS"
     },
-    "msrp": 15000,
-    "vehicleYear": 2016,
-    "vehicleModel": "Toyota Camry SE",
+    "msrp": 17200,
+    "vehicleYear": 2017,
+    "vehicleModel": "Toyota Camry",
     "vehicleTrim": "SPORT",
     "vehicleType": "SEDAN",
-    "mileage": 87000
+    "mileage": 83000
   },
   {
     "id": "VEHICLE#035",
@@ -291,38 +70,38 @@
       "vehicleCondition": "USED",
       "fuelType": "HYBRID"
     },
-    "msrp": 19500,
-    "vehicleYear": 2018,
-    "vehicleModel": "Toyota Prius Two",
-    "vehicleTrim": "BASE",
-    "vehicleType": "HATCHBACK",
-    "mileage": 69000
+    "msrp": 19800,
+    "vehicleYear": 2017,
+    "vehicleModel": "Toyota Camry Hybrid",
+    "vehicleTrim": "LIMITED",
+    "vehicleType": "SEDAN",
+    "mileage": 72000
   },
   {
     "id": "VEHICLE#036",
     "vehicleDetails": {
       "vehicleCondition": "USED",
-      "fuelType": "HYBRID"
+      "fuelType": "GAS"
     },
-    "msrp": 21000,
-    "vehicleYear": 2019,
-    "vehicleModel": "Toyota Corolla Hybrid LE",
+    "msrp": 22900,
+    "vehicleYear": 2020,
+    "vehicleModel": "Toyota Camry",
     "vehicleTrim": "BASE",
     "vehicleType": "SEDAN",
-    "mileage": 57000
+    "mileage": 58000
   },
   {
     "id": "VEHICLE#037",
     "vehicleDetails": {
       "vehicleCondition": "USED",
-      "fuelType": "GAS"
+      "fuelType": "HYBRID"
     },
-    "msrp": 25000,
-    "vehicleYear": 2021,
-    "vehicleModel": "Toyota RAV4 LE",
-    "vehicleTrim": "BASE",
-    "vehicleType": "SUV",
-    "mileage": 33000
+    "msrp": 25600,
+    "vehicleYear": 2020,
+    "vehicleModel": "Toyota Camry Hybrid",
+    "vehicleTrim": "SPORT",
+    "vehicleType": "SEDAN",
+    "mileage": 47200
   },
   {
     "id": "VEHICLE#038",
@@ -330,155 +109,155 @@
       "vehicleCondition": "USED",
       "fuelType": "HYBRID"
     },
-    "msrp": 26500,
-    "vehicleYear": 2021,
-    "vehicleModel": "Toyota Camry Hybrid LE",
-    "vehicleTrim": "SPORT",
+    "msrp": 28900,
+    "vehicleYear": 2020,
+    "vehicleModel": "Toyota Camry Hybrid",
+    "vehicleTrim": "LIMITED",
     "vehicleType": "SEDAN",
-    "mileage": 29000
+    "mileage": 42000
   },
   {
     "id": "VEHICLE#039",
     "vehicleDetails": {
-      "vehicleCondition": "NEW",
-      "fuelType": "HYBRID"
+      "vehicleCondition": "USED",
+      "fuelType": "GAS"
     },
-    "msrp": 34000,
-    "vehicleYear": 2025,
-    "vehicleModel": "Toyota Corolla Cross Hybrid XLE",
-    "vehicleTrim": "LIMITED",
-    "vehicleType": "SUV",
-    "mileage": 0
+    "msrp": 31500,
+    "vehicleYear": 2023,
+    "vehicleModel": "Toyota Camry",
+    "vehicleTrim": "SPORT",
+    "vehicleType": "SEDAN",
+    "mileage": 13800
   },
   {
     "id": "VEHICLE#040",
     "vehicleDetails": {
-      "vehicleCondition": "NEW",
+      "vehicleCondition": "USED",
       "fuelType": "HYBRID"
     },
-    "msrp": 36500,
-    "vehicleYear": 2025,
-    "vehicleModel": "Toyota Prius Prime SE",
-    "vehicleTrim": "SPORT",
-    "vehicleType": "HATCHBACK",
-    "mileage": 0
+    "msrp": 34200,
+    "vehicleYear": 2023,
+    "vehicleModel": "Toyota Camry Hybrid",
+    "vehicleTrim": "LIMITED",
+    "vehicleType": "SEDAN",
+    "mileage": 11200
   },
   {
     "id": "VEHICLE#041",
     "vehicleDetails": {
-      "vehicleCondition": "NEW",
-      "fuelType": "HYBRID"
+      "vehicleCondition": "USED",
+      "fuelType": "GAS"
     },
-    "msrp": 42000,
+    "msrp": 35600,
     "vehicleYear": 2025,
-    "vehicleModel": "Toyota RAV4 Hybrid XSE",
-    "vehicleTrim": "LIMITED",
-    "vehicleType": "SUV",
-    "mileage": 0
+    "vehicleModel": "Toyota Camry",
+    "vehicleTrim": "SPORT",
+    "vehicleType": "SEDAN",
+    "mileage": 5200
   },
   {
     "id": "VEHICLE#042",
     "vehicleDetails": {
-      "vehicleCondition": "NEW",
+      "vehicleCondition": "USED",
       "fuelType": "HYBRID"
     },
-    "msrp": 45500,
+    "msrp": 38200,
     "vehicleYear": 2025,
-    "vehicleModel": "Toyota Crown",
+    "vehicleModel": "Toyota Camry Hybrid",
     "vehicleTrim": "LIMITED",
     "vehicleType": "SEDAN",
-    "mileage": 0
+    "mileage": 3900
   },
   {
     "id": "VEHICLE#043",
     "vehicleDetails": {
-      "vehicleCondition": "NEW",
-      "fuelType": "GAS"
+      "vehicleCondition": "USED",
+      "fuelType": "ELECTRIC"
     },
-    "msrp": 38500,
+    "msrp": 41500,
     "vehicleYear": 2025,
-    "vehicleModel": "Toyota 4Runner SR5",
+    "vehicleModel": "Toyota Camry EV",
     "vehicleTrim": "SPORT",
-    "vehicleType": "SUV",
-    "mileage": 0
+    "vehicleType": "SEDAN",
+    "mileage": 2700
   },
   {
     "id": "VEHICLE#044",
     "vehicleDetails": {
       "vehicleCondition": "USED",
-      "fuelType": "HYBRID"
+      "fuelType": "GAS"
     },
-    "msrp": 29500,
-    "vehicleYear": 2022,
-    "vehicleModel": "Toyota Highlander Hybrid LE",
-    "vehicleTrim": "BASE",
-    "vehicleType": "SUV",
-    "mileage": 22000
+    "msrp": 17800,
+    "vehicleYear": 2017,
+    "vehicleModel": "Toyota Camry",
+    "vehicleTrim": "LIMITED",
+    "vehicleType": "SEDAN",
+    "mileage": 81000
   },
   {
     "id": "VEHICLE#045",
     "vehicleDetails": {
-      "vehicleCondition": "NEW",
-      "fuelType": "ELECTRIC"
+      "vehicleCondition": "USED",
+      "fuelType": "HYBRID"
     },
-    "msrp": 60500,
-    "vehicleYear": 2025,
-    "vehicleModel": "Toyota bZ4X Limited AWD",
-    "vehicleTrim": "LIMITED",
-    "vehicleType": "SUV",
-    "mileage": 0
+    "msrp": 30200,
+    "vehicleYear": 2023,
+    "vehicleModel": "Toyota Camry Hybrid",
+    "vehicleTrim": "SPORT",
+    "vehicleType": "SEDAN",
+    "mileage": 12500
   },
   {
     "id": "VEHICLE#046",
     "vehicleDetails": {
-      "vehicleCondition": "NEW",
-      "fuelType": "HYBRID"
+      "vehicleCondition": "USED",
+      "fuelType": "GAS"
     },
-    "msrp": 52000,
-    "vehicleYear": 2025,
-    "vehicleModel": "Toyota Sequoia i-Force Max",
+    "msrp": 13300,
+    "vehicleYear": 2014,
+    "vehicleModel": "Toyota Camry",
     "vehicleTrim": "LIMITED",
-    "vehicleType": "SUV",
-    "mileage": 0
+    "vehicleType": "SEDAN",
+    "mileage": 92000
   },
   {
     "id": "VEHICLE#047",
     "vehicleDetails": {
-      "vehicleCondition": "NEW",
+      "vehicleCondition": "USED",
       "fuelType": "HYBRID"
     },
-    "msrp": 56000,
-    "vehicleYear": 2025,
-    "vehicleModel": "Toyota Tundra Hybrid CrewMax",
-    "vehicleTrim": "SPORT",
-    "vehicleType": "TRUCK",
-    "mileage": 0
+    "msrp": 27000,
+    "vehicleYear": 2020,
+    "vehicleModel": "Toyota Camry Hybrid",
+    "vehicleTrim": "BASE",
+    "vehicleType": "SEDAN",
+    "mileage": 51000
   },
   {
     "id": "VEHICLE#048",
     "vehicleDetails": {
       "vehicleCondition": "USED",
-      "fuelType": "GAS"
+      "fuelType": "HYBRID"
     },
-    "msrp": 18500,
-    "vehicleYear": 2019,
-    "vehicleModel": "Toyota C-HR XLE",
-    "vehicleTrim": "BASE",
-    "vehicleType": "SUV",
-    "mileage": 59000
+    "msrp": 36800,
+    "vehicleYear": 2025,
+    "vehicleModel": "Toyota Camry Hybrid",
+    "vehicleTrim": "SPORT",
+    "vehicleType": "SEDAN",
+    "mileage": 6100
   },
   {
     "id": "VEHICLE#049",
     "vehicleDetails": {
-      "vehicleCondition": "NEW",
-      "fuelType": "HYBRID"
+      "vehicleCondition": "USED",
+      "fuelType": "GAS"
     },
-    "msrp": 44500,
-    "vehicleYear": 2025,
-    "vehicleModel": "Toyota Sienna XSE Hybrid",
-    "vehicleTrim": "SPORT",
-    "vehicleType": "SUV",
-    "mileage": 0
+    "msrp": 23800,
+    "vehicleYear": 2020,
+    "vehicleModel": "Toyota Camry",
+    "vehicleTrim": "LIMITED",
+    "vehicleType": "SEDAN",
+    "mileage": 56400
   },
   {
     "id": "VEHICLE#050",
@@ -486,141 +265,621 @@
       "vehicleCondition": "USED",
       "fuelType": "HYBRID"
     },
-    "msrp": 25500,
-    "vehicleYear": 2021,
-    "vehicleModel": "Toyota Avalon Hybrid XLE",
-    "vehicleTrim": "LIMITED",
-    "vehicleType": "SEDAN",
-    "mileage": 37000
-  }, 
-  {
-    "id": "VEHICLE#051",
-    "vehicleDetails": {
-      "vehicleCondition": "USED",
-      "fuelType": "HYBRID"
-    },
-    "msrp": 26500,
-    "vehicleYear": 2020,
-    "vehicleModel": "Toyota RAV4 Hybrid LE",
+    "msrp": 33300,
+    "vehicleYear": 2023,
+    "vehicleModel": "Toyota Camry Hybrid",
     "vehicleTrim": "BASE",
-    "vehicleType": "SUV",
-    "mileage": 36000
+    "vehicleType": "SEDAN",
+    "mileage": 9800
+  },
+   {
+    "id": "VEHICLE#051",
+    "vehicleDetails": { "vehicleCondition": "USED", "fuelType": "GAS" },
+    "msrp": 7200,
+    "vehicleYear": 2011,
+    "vehicleModel": "Toyota Camry",
+    "vehicleTrim": "BASE",
+    "vehicleType": "SEDAN",
+    "mileage": 158000
   },
   {
     "id": "VEHICLE#052",
-    "vehicleDetails": {
-      "vehicleCondition": "USED",
-      "fuelType": "HYBRID"
-    },
-    "msrp": 27500,
-    "vehicleYear": 2021,
-    "vehicleModel": "Toyota Highlander Hybrid LE",
+    "vehicleDetails": { "vehicleCondition": "USED", "fuelType": "GAS" },
+    "msrp": 8700,
+    "vehicleYear": 2011,
+    "vehicleModel": "Toyota Camry",
     "vehicleTrim": "SPORT",
-    "vehicleType": "SUV",
-    "mileage": 29000
+    "vehicleType": "SEDAN",
+    "mileage": 146000
   },
   {
     "id": "VEHICLE#053",
-    "vehicleDetails": {
-      "vehicleCondition": "USED",
-      "fuelType": "HYBRID"
-    },
-    "msrp": 28300,
-    "vehicleYear": 2022,
-    "vehicleModel": "Toyota Venza LE Hybrid",
+    "vehicleDetails": { "vehicleCondition": "USED", "fuelType": "HYBRID" },
+    "msrp": 9800,
+    "vehicleYear": 2014,
+    "vehicleModel": "Toyota Camry Hybrid",
     "vehicleTrim": "BASE",
-    "vehicleType": "SUV",
-    "mileage": 26000
+    "vehicleType": "SEDAN",
+    "mileage": 124000
   },
   {
     "id": "VEHICLE#054",
-    "vehicleDetails": {
-      "vehicleCondition": "USED",
-      "fuelType": "HYBRID"
-    },
-    "msrp": 29500,
-    "vehicleYear": 2023,
-    "vehicleModel": "Toyota Corolla Cross Hybrid",
-    "vehicleTrim": "SPORT",
-    "vehicleType": "SUV",
-    "mileage": 18000
+    "vehicleDetails": { "vehicleCondition": "USED", "fuelType": "GAS" },
+    "msrp": 11200,
+    "vehicleYear": 2014,
+    "vehicleModel": "Toyota Camry",
+    "vehicleTrim": "LIMITED",
+    "vehicleType": "SEDAN",
+    "mileage": 109000
   },
   {
     "id": "VEHICLE#055",
-    "vehicleDetails": {
-      "vehicleCondition": "USED",
-      "fuelType": "HYBRID"
-    },
-    "msrp": 31000,
-    "vehicleYear": 2023,
-    "vehicleModel": "Toyota RAV4 Hybrid XLE",
-    "vehicleTrim": "LIMITED",
-    "vehicleType": "SUV",
-    "mileage": 15000
-  },
+    "vehicleDetails": { "vehicleCondition": "USED", "fuelType": "GAS" },
+    "msrp": 12900,
+    "vehicleYear": 2017,
+    "vehicleModel": "Toyota Camry",
+    "vehicleTrim": "BASE",
+    "vehicleType": "SEDAN",
+    "mileage": 98500
+  }, 
   {
     "id": "VEHICLE#056",
-    "vehicleDetails": {
-      "vehicleCondition": "USED",
-      "fuelType": "HYBRID"
-    },
-    "msrp": 32500,
-    "vehicleYear": 2022,
-    "vehicleModel": "Toyota Highlander Hybrid XLE",
-    "vehicleTrim": "LIMITED",
-    "vehicleType": "SUV",
-    "mileage": 27000
+    "vehicleDetails": { "vehicleCondition": "USED", "fuelType": "HYBRID" },
+    "msrp": 18800,
+    "vehicleYear": 2017,
+    "vehicleModel": "Toyota Camry Hybrid",
+    "vehicleTrim": "SPORT",
+    "vehicleType": "SEDAN",
+    "mileage": 78000
   },
   {
     "id": "VEHICLE#057",
-    "vehicleDetails": {
-      "vehicleCondition": "USED",
-      "fuelType": "HYBRID"
-    },
-    "msrp": 33500,
-    "vehicleYear": 2023,
-    "vehicleModel": "Toyota RAV4 Prime SE (Plug-in Hybrid)",
-    "vehicleTrim": "SPORT",
-    "vehicleType": "SUV",
-    "mileage": 22000
+    "vehicleDetails": { "vehicleCondition": "USED", "fuelType": "GAS" },
+    "msrp": 20500,
+    "vehicleYear": 2017,
+    "vehicleModel": "Toyota Camry",
+    "vehicleTrim": "LIMITED",
+    "vehicleType": "SEDAN",
+    "mileage": 71000
   },
   {
     "id": "VEHICLE#058",
-    "vehicleDetails": {
-      "vehicleCondition": "USED",
-      "fuelType": "HYBRID"
-    },
-    "msrp": 32000,
-    "vehicleYear": 2021,
-    "vehicleModel": "Toyota Venza XLE Hybrid",
-    "vehicleTrim": "LIMITED",
-    "vehicleType": "SUV",
-    "mileage": 31000
+    "vehicleDetails": { "vehicleCondition": "USED", "fuelType": "HYBRID" },
+    "msrp": 23800,
+    "vehicleYear": 2020,
+    "vehicleModel": "Toyota Camry Hybrid",
+    "vehicleTrim": "BASE",
+    "vehicleType": "SEDAN",
+    "mileage": 54000
   },
   {
     "id": "VEHICLE#059",
-    "vehicleDetails": {
-      "vehicleCondition": "USED",
-      "fuelType": "HYBRID"
-    },
-    "msrp": 30500,
+    "vehicleDetails": { "vehicleCondition": "USED", "fuelType": "HYBRID" },
+    "msrp": 25900,
     "vehicleYear": 2020,
-    "vehicleModel": "Toyota RAV4 Hybrid XSE",
-    "vehicleTrim": "SPORT",
-    "vehicleType": "SUV",
-    "mileage": 42000
+    "vehicleModel": "Toyota Camry Hybrid",
+    "vehicleTrim": "LIMITED",
+    "vehicleType": "SEDAN",
+    "mileage": 49800
   },
   {
     "id": "VEHICLE#060",
-    "vehicleDetails": {
-      "vehicleCondition": "USED",
-      "fuelType": "HYBRID"
-    },
-    "msrp": 28500,
-    "vehicleYear": 2019,
-    "vehicleModel": "Toyota Highlander Hybrid XLE",
+    "vehicleDetails": { "vehicleCondition": "USED", "fuelType": "GAS" },
+    "msrp": 27800,
+    "vehicleYear": 2023,
+    "vehicleModel": "Toyota Camry",
+    "vehicleTrim": "SPORT",
+    "vehicleType": "SEDAN",
+    "mileage": 23000
+  }, 
+  {
+    "id": "VEHICLE#066",
+    "vehicleDetails": { "vehicleCondition": "USED", "fuelType": "GAS" },
+    "msrp": 7800,
+    "vehicleYear": 2011,
+    "vehicleModel": "Toyota Camry",
+    "vehicleTrim": "BASE",
+    "vehicleType": "SEDAN",
+    "mileage": 152000
+  },
+  {
+    "id": "VEHICLE#067",
+    "vehicleDetails": { "vehicleCondition": "USED", "fuelType": "HYBRID" },
+    "msrp": 12500,
+    "vehicleYear": 2014,
+    "vehicleModel": "Toyota Camry Hybrid",
+    "vehicleTrim": "LIMITED",
+    "vehicleType": "SEDAN",
+    "mileage": 112000
+  },
+  {
+    "id": "VEHICLE#068",
+    "vehicleDetails": { "vehicleCondition": "USED", "fuelType": "GAS" },
+    "msrp": 15400,
+    "vehicleYear": 2017,
+    "vehicleModel": "Toyota Camry",
+    "vehicleTrim": "SPORT",
+    "vehicleType": "SEDAN",
+    "mileage": 91000
+  },
+  {
+    "id": "VEHICLE#069",
+    "vehicleDetails": { "vehicleCondition": "USED", "fuelType": "HYBRID" },
+    "msrp": 19700,
+    "vehicleYear": 2017,
+    "vehicleModel": "Toyota Camry Hybrid",
+    "vehicleTrim": "BASE",
+    "vehicleType": "SEDAN",
+    "mileage": 74000
+  },
+  {
+    "id": "VEHICLE#070",
+    "vehicleDetails": { "vehicleCondition": "USED", "fuelType": "HYBRID" },
+    "msrp": 23400,
+    "vehicleYear": 2020,
+    "vehicleModel": "Toyota Camry Hybrid",
+    "vehicleTrim": "SPORT",
+    "vehicleType": "SEDAN",
+    "mileage": 59800
+  },
+  {
+    "id": "VEHICLE#071",
+    "vehicleDetails": { "vehicleCondition": "USED", "fuelType": "GAS" },
+    "msrp": 26200,
+    "vehicleYear": 2020,
+    "vehicleModel": "Toyota Camry",
+    "vehicleTrim": "LIMITED",
+    "vehicleType": "SEDAN",
+    "mileage": 50200
+  },
+  {
+    "id": "VEHICLE#072",
+    "vehicleDetails": { "vehicleCondition": "USED", "fuelType": "HYBRID" },
+    "msrp": 31200,
+    "vehicleYear": 2023,
+    "vehicleModel": "Toyota Camry Hybrid",
+    "vehicleTrim": "SPORT",
+    "vehicleType": "SEDAN",
+    "mileage": 18300
+  },
+  {
+    "id": "VEHICLE#073",
+    "vehicleDetails": { "vehicleCondition": "USED", "fuelType": "HYBRID" },
+    "msrp": 34800,
+    "vehicleYear": 2023,
+    "vehicleModel": "Toyota Camry Hybrid",
+    "vehicleTrim": "LIMITED",
+    "vehicleType": "SEDAN",
+    "mileage": 10500
+  },
+  {
+    "id": "VEHICLE#074",
+    "vehicleDetails": { "vehicleCondition": "USED", "fuelType": "ELECTRIC" },
+    "msrp": 39900,
+    "vehicleYear": 2025,
+    "vehicleModel": "Toyota Camry EV",
+    "vehicleTrim": "SPORT",
+    "vehicleType": "SEDAN",
+    "mileage": 4200
+  },
+  {
+    "id": "VEHICLE#075",
+    "vehicleDetails": { "vehicleCondition": "USED", "fuelType": "HYBRID" },
+    "msrp": 38400,
+    "vehicleYear": 2025,
+    "vehicleModel": "Toyota Camry Hybrid",
+    "vehicleTrim": "LIMITED",
+    "vehicleType": "SEDAN",
+    "mileage": 3700
+  },
+  {
+    "id": "VEHICLE#076",
+    "vehicleDetails": { "vehicleCondition": "USED", "fuelType": "GAS" },
+    "msrp": 6400,
+    "vehicleYear": 2011,
+    "vehicleModel": "Toyota Corolla",
+    "vehicleTrim": "BASE",
+    "vehicleType": "SEDAN",
+    "mileage": 164000
+  },
+  {
+    "id": "VEHICLE#077",
+    "vehicleDetails": { "vehicleCondition": "USED", "fuelType": "GAS" },
+    "msrp": 8700,
+    "vehicleYear": 2014,
+    "vehicleModel": "Toyota Corolla",
+    "vehicleTrim": "SPORT",
+    "vehicleType": "SEDAN",
+    "mileage": 139000
+  },
+  {
+    "id": "VEHICLE#078",
+    "vehicleDetails": { "vehicleCondition": "USED", "fuelType": "HYBRID" },
+    "msrp": 10900,
+    "vehicleYear": 2014,
+    "vehicleModel": "Toyota Corolla Hybrid",
+    "vehicleTrim": "BASE",
+    "vehicleType": "SEDAN",
+    "mileage": 121000
+  },
+  {
+    "id": "VEHICLE#079",
+    "vehicleDetails": { "vehicleCondition": "USED", "fuelType": "GAS" },
+    "msrp": 13200,
+    "vehicleYear": 2016,
+    "vehicleModel": "Toyota Corolla",
+    "vehicleTrim": "LIMITED",
+    "vehicleType": "SEDAN",
+    "mileage": 103000
+  },
+  {
+    "id": "VEHICLE#080",
+    "vehicleDetails": { "vehicleCondition": "USED", "fuelType": "GAS" },
+    "msrp": 15400,
+    "vehicleYear": 2016,
+    "vehicleModel": "Toyota Corolla",
+    "vehicleTrim": "SPORT",
+    "vehicleType": "SEDAN",
+    "mileage": 94000
+  },
+  {
+    "id": "VEHICLE#081",
+    "vehicleDetails": { "vehicleCondition": "USED", "fuelType": "HYBRID" },
+    "msrp": 19200,
+    "vehicleYear": 2018,
+    "vehicleModel": "Toyota Corolla Hybrid",
+    "vehicleTrim": "BASE",
+    "vehicleType": "SEDAN",
+    "mileage": 78500
+  },
+  {
+    "id": "VEHICLE#082",
+    "vehicleDetails": { "vehicleCondition": "USED", "fuelType": "GAS" },
+    "msrp": 21600,
+    "vehicleYear": 2018,
+    "vehicleModel": "Toyota Corolla",
+    "vehicleTrim": "LIMITED",
+    "vehicleType": "SEDAN",
+    "mileage": 69400
+  },
+  {
+    "id": "VEHICLE#083",
+    "vehicleDetails": { "vehicleCondition": "USED", "fuelType": "HYBRID" },
+    "msrp": 24900,
+    "vehicleYear": 2021,
+    "vehicleModel": "Toyota Corolla Hybrid",
+    "vehicleTrim": "SPORT",
+    "vehicleType": "SEDAN",
+    "mileage": 44100
+  },
+  {
+    "id": "VEHICLE#084",
+    "vehicleDetails": { "vehicleCondition": "USED", "fuelType": "GAS" },
+    "msrp": 27500,
+    "vehicleYear": 2021,
+    "vehicleModel": "Toyota Corolla",
+    "vehicleTrim": "LIMITED",
+    "vehicleType": "SEDAN",
+    "mileage": 33600
+  },
+  {
+    "id": "VEHICLE#085",
+    "vehicleDetails": { "vehicleCondition": "USED", "fuelType": "HYBRID" },
+    "msrp": 32200,
+    "vehicleYear": 2024,
+    "vehicleModel": "Toyota Corolla Hybrid",
+    "vehicleTrim": "LIMITED",
+    "vehicleType": "SEDAN",
+    "mileage": 9400
+  },
+  {
+    "id": "VEHICLE#086",
+    "vehicleDetails": { "vehicleCondition": "USED", "fuelType": "GAS" },
+    "msrp": 29800,
+    "vehicleYear": 2024,
+    "vehicleModel": "Toyota Corolla",
+    "vehicleTrim": "SPORT",
+    "vehicleType": "SEDAN",
+    "mileage": 10200
+  }, 
+  {
+    "id": "VEHICLE#087",
+    "vehicleDetails": { "vehicleCondition": "USED", "fuelType": "GAS" },
+    "msrp": 7100,
+    "vehicleYear": 2011,
+    "vehicleModel": "Toyota Corolla",
+    "vehicleTrim": "BASE",
+    "vehicleType": "SEDAN",
+    "mileage": 161500
+  },
+  {
+    "id": "VEHICLE#088",
+    "vehicleDetails": { "vehicleCondition": "USED", "fuelType": "GAS" },
+    "msrp": 9300,
+    "vehicleYear": 2014,
+    "vehicleModel": "Toyota Corolla",
+    "vehicleTrim": "SPORT",
+    "vehicleType": "SEDAN",
+    "mileage": 134200
+  },
+  {
+    "id": "VEHICLE#089",
+    "vehicleDetails": { "vehicleCondition": "USED", "fuelType": "HYBRID" },
+    "msrp": 11700,
+    "vehicleYear": 2014,
+    "vehicleModel": "Toyota Corolla Hybrid",
+    "vehicleTrim": "LIMITED",
+    "vehicleType": "SEDAN",
+    "mileage": 118800
+  },
+  {
+    "id": "VEHICLE#090",
+    "vehicleDetails": { "vehicleCondition": "USED", "fuelType": "GAS" },
+    "msrp": 14100,
+    "vehicleYear": 2016,
+    "vehicleModel": "Toyota Corolla",
+    "vehicleTrim": "BASE",
+    "vehicleType": "SEDAN",
+    "mileage": 98700
+  },
+  {
+    "id": "VEHICLE#091",
+    "vehicleDetails": { "vehicleCondition": "USED", "fuelType": "HYBRID" },
+    "msrp": 16800,
+    "vehicleYear": 2016,
+    "vehicleModel": "Toyota Corolla Hybrid",
+    "vehicleTrim": "SPORT",
+    "vehicleType": "SEDAN",
+    "mileage": 93000
+  },
+  {
+    "id": "VEHICLE#092",
+    "vehicleDetails": { "vehicleCondition": "USED", "fuelType": "GAS" },
+    "msrp": 19400,
+    "vehicleYear": 2018,
+    "vehicleModel": "Toyota Corolla",
+    "vehicleTrim": "LIMITED",
+    "vehicleType": "SEDAN",
+    "mileage": 83500
+  },
+  {
+    "id": "VEHICLE#093",
+    "vehicleDetails": { "vehicleCondition": "USED", "fuelType": "HYBRID" },
+    "msrp": 22300,
+    "vehicleYear": 2018,
+    "vehicleModel": "Toyota Corolla Hybrid",
+    "vehicleTrim": "SPORT",
+    "vehicleType": "SEDAN",
+    "mileage": 76800
+  },
+  {
+    "id": "VEHICLE#094",
+    "vehicleDetails": { "vehicleCondition": "USED", "fuelType": "HYBRID" },
+    "msrp": 26600,
+    "vehicleYear": 2021,
+    "vehicleModel": "Toyota Corolla Hybrid",
+    "vehicleTrim": "LIMITED",
+    "vehicleType": "SEDAN",
+    "mileage": 37200
+  },
+  {
+    "id": "VEHICLE#095",
+    "vehicleDetails": { "vehicleCondition": "USED", "fuelType": "GAS" },
+    "msrp": 25200,
+    "vehicleYear": 2021,
+    "vehicleModel": "Toyota Corolla",
+    "vehicleTrim": "SPORT",
+    "vehicleType": "SEDAN",
+    "mileage": 42500
+  },
+  {
+    "id": "VEHICLE#096",
+    "vehicleDetails": { "vehicleCondition": "USED", "fuelType": "HYBRID" },
+    "msrp": 31900,
+    "vehicleYear": 2024,
+    "vehicleModel": "Toyota Corolla Hybrid",
+    "vehicleTrim": "LIMITED",
+    "vehicleType": "SEDAN",
+    "mileage": 8800
+  }, 
+   {
+    "id": "VEHICLE#097",
+    "vehicleDetails": { "vehicleCondition": "USED", "fuelType": "GAS" },
+    "msrp": 8800,
+    "vehicleYear": 2011,
+    "vehicleModel": "Toyota RAV4",
+    "vehicleTrim": "BASE",
+    "vehicleType": "SUV",
+    "mileage": 158000
+  },
+  {
+    "id": "VEHICLE#098",
+    "vehicleDetails": { "vehicleCondition": "USED", "fuelType": "GAS" },
+    "msrp": 11200,
+    "vehicleYear": 2014,
+    "vehicleModel": "Toyota RAV4",
+    "vehicleTrim": "SPORT",
+    "vehicleType": "SUV",
+    "mileage": 128000
+  },
+  {
+    "id": "VEHICLE#099",
+    "vehicleDetails": { "vehicleCondition": "USED", "fuelType": "HYBRID" },
+    "msrp": 14900,
+    "vehicleYear": 2014,
+    "vehicleModel": "Toyota RAV4 Hybrid",
     "vehicleTrim": "LIMITED",
     "vehicleType": "SUV",
-    "mileage": 48000
+    "mileage": 117500
+  },
+  {
+    "id": "VEHICLE#100",
+    "vehicleDetails": { "vehicleCondition": "USED", "fuelType": "GAS" },
+    "msrp": 17800,
+    "vehicleYear": 2017,
+    "vehicleModel": "Toyota RAV4",
+    "vehicleTrim": "BASE",
+    "vehicleType": "SUV",
+    "mileage": 97000
+  },
+  {
+    "id": "VEHICLE#101",
+    "vehicleDetails": { "vehicleCondition": "USED", "fuelType": "HYBRID" },
+    "msrp": 20300,
+    "vehicleYear": 2017,
+    "vehicleModel": "Toyota RAV4 Hybrid",
+    "vehicleTrim": "SPORT",
+    "vehicleType": "SUV",
+    "mileage": 84500
+  },
+  {
+    "id": "VEHICLE#102",
+    "vehicleDetails": { "vehicleCondition": "USED", "fuelType": "HYBRID" },
+    "msrp": 28400,
+    "vehicleYear": 2021,
+    "vehicleModel": "Toyota RAV4 Hybrid",
+    "vehicleTrim": "BASE",
+    "vehicleType": "SUV",
+    "mileage": 47200
+  },
+  {
+    "id": "VEHICLE#103",
+    "vehicleDetails": { "vehicleCondition": "USED", "fuelType": "HYBRID" },
+    "msrp": 31900,
+    "vehicleYear": 2021,
+    "vehicleModel": "Toyota RAV4 Hybrid",
+    "vehicleTrim": "LIMITED",
+    "vehicleType": "SUV",
+    "mileage": 39800
+  },
+  {
+    "id": "VEHICLE#104",
+    "vehicleDetails": { "vehicleCondition": "USED", "fuelType": "GAS" },
+    "msrp": 27200,
+    "vehicleYear": 2021,
+    "vehicleModel": "Toyota RAV4",
+    "vehicleTrim": "SPORT",
+    "vehicleType": "SUV",
+    "mileage": 51200
+  },
+  {
+    "id": "VEHICLE#105",
+    "vehicleDetails": { "vehicleCondition": "USED", "fuelType": "HYBRID" },
+    "msrp": 35400,
+    "vehicleYear": 2024,
+    "vehicleModel": "Toyota RAV4 Hybrid",
+    "vehicleTrim": "SPORT",
+    "vehicleType": "SUV",
+    "mileage": 11800
+  },
+  {
+    "id": "VEHICLE#106",
+    "vehicleDetails": { "vehicleCondition": "USED", "fuelType": "ELECTRIC" },
+    "msrp": 39800,
+    "vehicleYear": 2024,
+    "vehicleModel": "Toyota RAV4 EV",
+    "vehicleTrim": "LIMITED",
+    "vehicleType": "SUV",
+    "mileage": 7200
+  }, 
+  {
+    "id": "VEHICLE#107",
+    "vehicleDetails": { "vehicleCondition": "USED", "fuelType": "GAS" },
+    "msrp": 9800,
+    "vehicleYear": 2010,
+    "vehicleModel": "Toyota Tacoma",
+    "vehicleTrim": "BASE",
+    "vehicleType": "TRUCK",
+    "mileage": 176000
+  },
+  {
+    "id": "VEHICLE#108",
+    "vehicleDetails": { "vehicleCondition": "USED", "fuelType": "GAS" },
+    "msrp": 12500,
+    "vehicleYear": 2012,
+    "vehicleModel": "Toyota Tacoma",
+    "vehicleTrim": "SPORT",
+    "vehicleType": "TRUCK",
+    "mileage": 148000
+  },
+  {
+    "id": "VEHICLE#109",
+    "vehicleDetails": { "vehicleCondition": "USED", "fuelType": "GAS" },
+    "msrp": 15800,
+    "vehicleYear": 2014,
+    "vehicleModel": "Toyota Tacoma",
+    "vehicleTrim": "LIMITED",
+    "vehicleType": "TRUCK",
+    "mileage": 126000
+  },
+  {
+    "id": "VEHICLE#110",
+    "vehicleDetails": { "vehicleCondition": "USED", "fuelType": "GAS" },
+    "msrp": 21200,
+    "vehicleYear": 2014,
+    "vehicleModel": "Toyota Tacoma",
+    "vehicleTrim": "SPORT",
+    "vehicleType": "TRUCK",
+    "mileage": 98000
+  },
+  {
+    "id": "VEHICLE#111",
+    "vehicleDetails": { "vehicleCondition": "USED", "fuelType": "GAS" },
+    "msrp": 27800,
+    "vehicleYear": 2018,
+    "vehicleModel": "Toyota Tacoma",
+    "vehicleTrim": "BASE",
+    "vehicleType": "TRUCK",
+    "mileage": 73000
+  },
+  {
+    "id": "VEHICLE#112",
+    "vehicleDetails": { "vehicleCondition": "USED", "fuelType": "GAS" },
+    "msrp": 31900,
+    "vehicleYear": 2018,
+    "vehicleModel": "Toyota Tacoma",
+    "vehicleTrim": "SPORT",
+    "vehicleType": "TRUCK",
+    "mileage": 62400
+  },
+  {
+    "id": "VEHICLE#113",
+    "vehicleDetails": { "vehicleCondition": "USED", "fuelType": "GAS" },
+    "msrp": 35400,
+    "vehicleYear": 2021,
+    "vehicleModel": "Toyota Tacoma",
+    "vehicleTrim": "LIMITED",
+    "vehicleType": "TRUCK",
+    "mileage": 41800
+  },
+  {
+    "id": "VEHICLE#114",
+    "vehicleDetails": { "vehicleCondition": "USED", "fuelType": "HYBRID" },
+    "msrp": 37900,
+    "vehicleYear": 2021,
+    "vehicleModel": "Toyota Tacoma Hybrid",
+    "vehicleTrim": "SPORT",
+    "vehicleType": "TRUCK",
+    "mileage": 36200
+  },
+  {
+    "id": "VEHICLE#115",
+    "vehicleDetails": { "vehicleCondition": "USED", "fuelType": "HYBRID" },
+    "msrp": 42500,
+    "vehicleYear": 2024,
+    "vehicleModel": "Toyota Tacoma Hybrid",
+    "vehicleTrim": "LIMITED",
+    "vehicleType": "TRUCK",
+    "mileage": 9400
+  },
+  {
+    "id": "VEHICLE#116",
+    "vehicleDetails": { "vehicleCondition": "USED", "fuelType": "ELECTRIC" },
+    "msrp": 45800,
+    "vehicleYear": 2024,
+    "vehicleModel": "Toyota Tacoma EV",
+    "vehicleTrim": "SPORT",
+    "vehicleType": "TRUCK",
+    "mileage": 6700
   }
 ]

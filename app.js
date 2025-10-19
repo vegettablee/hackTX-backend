@@ -5,6 +5,7 @@ const app = express();
 
 // Import routes
 const recommendationRoute = require('./routes/recommendationRoute');
+const userRoutes = require('./routes/userRoutes');
 
 // Only parse JSON for requests that should have a body
 
@@ -28,6 +29,7 @@ app.use(cors());
 
 // Mount routes
 app.use('/cars', recommendationRoute);
+app.use('/users', userRoutes);
 
 // Start server (locally)
 //app.listen(3000, () => console.log("Server running on http://localhost:3000"));
