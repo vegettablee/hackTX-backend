@@ -13,23 +13,36 @@ const paymentService = ({vehicleProfile, interestRate = 5, termMonths = 60, down
 const calculateAffordabilityScores = async (vehicles, user) => { 
 
     let scoredVehicles = []; 
-    let vehiclePaymentSchemas = []; 
 
-    for(vehicle of vehicles) { 
-    let schema = paymentSchema(); 
-    let payment = paymentService(vehicle); 
+    for (const vehicle of vehicles) {
+    // Compute monthly payment
+    const payment = paymentService({ vehicleProfile: vehicle });
 
+    // Compute affordability ratio
     const ratio = payment / ((user.income / 12) * 0.15);
-    const creditWeight = user.creditScore / 850; // scale 0–1
-  
+    const creditWeight = user.creditScore / 850;
+
+    // Higher = better affordability
     const baseScore = Math.max(0, 1 - ratio);
-    scoredVehicles.append({ 
-        "vehicle" : vehicle, 
-        "score" : baseScore
+    const finalScore = parseFloat((baseScore * creditWeight).toFixed(3));
+    // Push vehicle + its affordability score
+    scoredVehicles.push({
+      ...vehicle,
+      monthlyPayment: payment,
+      affordabilityScore: finalScore,
+    });
+  }
+
+  // Sort descending (best first)
+  scoredVehicles.sort((a, b) => b.affordabilityScore - a.affordabilityScore);
+
+  let vehiclePaymentSchemas = []; 
+  for(sortedVehicle of scoredVehicles)  { 
+    let schema = paymentSchema({
+        vehicleProfile : sortedVehicle.vehicle, 
+        
     })
-    
-    }
-    return baseScore * creditWeight;
+  }
 }
 
 

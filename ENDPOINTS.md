@@ -48,7 +48,8 @@ Returns an array of **paymentSchema** objects (as defined in `models/paymentMode
     },
     "interestRate": "number",
     "termMonths": "number",
-    "downPayment": "number"
+    "downPayment": "number",
+    "monthlyPayment" : "number,
   },
   // ... more payment schemas
 ]
@@ -91,7 +92,8 @@ POST /recommend-cars
     },
     "interestRate": 4.5,
     "termMonths": 60,
-    "downPayment": 6400
+    "downPayment": 6400,
+    "monthlyPayment" : 350,
   }
 ]
 ```
