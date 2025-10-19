@@ -102,7 +102,7 @@ async function runTests() {
   await getUser("872sdf3hs");
   await getUser("98723s");
 
-  console.log("\n All tests completed!");
+  console.log("\nAll tests completed!");
 }
 
 // Execute tests
