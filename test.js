@@ -5,7 +5,8 @@ const {
 } = require("@aws-sdk/client-dynamodb");
 const { dynamo, TableName } = require('./config/dynamoDB');
 
-// Test function to insert fake users
+// Test function to insert fake users, to run : 
+// node test.js
 async function insertFakeUsers() {
   const fakeUsers = [
     {

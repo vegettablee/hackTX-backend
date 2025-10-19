@@ -24,10 +24,10 @@ const recommendationService = async (user) => {
   // For testing, use mockUser if no user is provided
   const currentUser = user || mockUser;
   let vehicles = await fetchAllVehicles();
-  let filteredVehicles = findCarsByCriteria(user); 
-  let vehicleRecommendations = getTopVehicles(filteredVehicles)
+  let filteredVehicles = findCarsByCriteria(currentUser, vehicles);
+  let vehicleRecommendations = getTopVehicles(filteredVehicles, currentUser)
 
-  return [];
+  return vehicleRecommendations;
 };
 
 const findCarsByCriteria = (user, vehicles) => {
@@ -58,6 +58,7 @@ const findCarsByCriteria = (user, vehicles) => {
 }
 
 const fetchAllVehicles = async () => {
+
   try {
     // Scan the entire table
     const result = await dynamo.send(new ScanCommand({ TableName }));
@@ -78,7 +79,8 @@ const fetchAllVehicles = async () => {
 }
 
 const getTopVehicles = (vehicles, user) => { 
-  calculateAffordabilityScores(vehicles, user); 
+  let topVehicleSchemas = calculateAffordabilityScores(vehicles, user); 
+  return topVehicleSchemas; 
 } 
 
 

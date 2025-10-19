@@ -7,6 +7,7 @@ const paymentSchema = {
   termMonths : Number,   // payment plan argument; could have default value
   downPayment : Number,   // payment plan argument; could have default value
   monthlyPayment : Number 
+  
 };
 
 module.exports = paymentSchema;

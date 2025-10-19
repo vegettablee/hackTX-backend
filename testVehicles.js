@@ -7,7 +7,8 @@ const { dynamo, TableName } = require('./config/dynamoDB');
 const fs = require('fs');
 const path = require('path');
 
-// Test function to insert fake vehicles
+// Test function to insert fake vehicles from vehicle.json
+// to run : node testVehicles.js
 async function insertFakeVehicles() {
   // Load vehicles from JSON file
   const vehiclesPath = path.join(__dirname, 'data', 'vehicles.json');

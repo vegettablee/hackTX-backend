@@ -1,52 +1,60 @@
 const paymentSchema = require("../models/paymentModel");
 
-// takes in an instance of paymentSchema
-const paymentService = ({vehicleProfile, interestRate = 5, termMonths = 60, downPayment = 0}) => {
-    const principal = vehicleProfile.msrp - downPayment;
-    const monthlyRate = interestRate / 100 / 12;
-    
-    const monthlyPayment = (principal * monthlyRate) / (1 - Math.pow(1 + monthlyRate, -1 * termMonths));
+let INTEREST_RATE = 5; // constants
+let TERM_MONTHS = 60; 
 
-    return parseInt(monthlyPayment.toFixed(2));
+// takes in an instance of paymentSchema
+const paymentService = (vehicleProfile, downPayment, interestRate = INTEREST_RATE, termMonths = TERM_MONTHS) => {
+  const principal = vehicleProfile.msrp - downPayment;
+  const monthlyRate = interestRate / 100 / 12;
+  const monthlyPayment = (principal * monthlyRate) / (1 - Math.pow(1 + monthlyRate, -termMonths));
+  return parseInt(monthlyPayment.toFixed(2));
 };
 
 const calculateAffordabilityScores = async (vehicles, user) => { 
+  const scoredVehicles = []; 
 
-    let scoredVehicles = []; 
+  for (const vehicle of vehicles) {
+    const downPayment = vehicle.msrp * 0.15; // 15% default
+    const monthlyPayment = paymentService(vehicle, downPayment);
 
-    for (const vehicle of vehicles) {
-    // Compute monthly payment
-    const payment = paymentService({ vehicleProfile: vehicle });
-
-    // Compute affordability ratio
-    const ratio = payment / ((user.income / 12) * 0.15);
+    const ratio = monthlyPayment / ((user.income / 12) * 0.15);
     const creditWeight = user.creditScore / 850;
-
-    // Higher = better affordability
     const baseScore = Math.max(0, 1 - ratio);
     const finalScore = parseFloat((baseScore * creditWeight).toFixed(3));
-    // Push vehicle + its affordability score
+    
     scoredVehicles.push({
       ...vehicle,
-      monthlyPayment: payment,
+      interestRate: INTEREST_RATE,
+      termMonths: TERM_MONTHS,
+      downPayment,
+      monthlyPayment,
       affordabilityScore: finalScore,
     });
-  }
+    }
 
   // Sort descending (best first)
-  scoredVehicles.sort((a, b) => b.affordabilityScore - a.affordabilityScore);
+  scoredVehicles.sort((a, b) => b.affordabilityScore - a.affordabilityScore); // sort them convert into payment schemas
 
-  let vehiclePaymentSchemas = []; 
-  for(sortedVehicle of scoredVehicles)  { 
-    let schema = paymentSchema({
-        vehicleProfile : sortedVehicle.vehicle, 
-        
-    })
+  let vehiclePaymentSchemas = [];
+  for(const sortedVehicle of scoredVehicles)  {
+    // Extract only vehicle properties (excluding payment-related fields we added)
+    const { interestRate, termMonths, downPayment, monthlyPayment, affordabilityScore, ...vehicleProfile } = sortedVehicle;
+
+    let schema = {
+        vehicleProfile,
+        interestRate,
+        termMonths,
+        downPayment,
+        monthlyPayment
+    };
+    vehiclePaymentSchemas.push(schema);
   }
+  return vehiclePaymentSchemas; 
 }
 
 
-module.exports = paymentService, calculateAffordabilityScores
+module.exports = { paymentService, calculateAffordabilityScores };
 
 // formula for monthly payment
 // To calculate principal amount: msrp - downPayment
