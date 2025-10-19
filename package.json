@@ -2,9 +2,9 @@
   "name": "server",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start" : "node app.js"
   },
   "keywords": [],
   "author": "",
@@ -16,4 +16,5 @@
     "dotenv": "^17.2.3",
     "express": "^5.1.0"
   }
+
 }

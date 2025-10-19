@@ -1,7 +1,7 @@
 const { GetItemCommand } = require("@aws-sdk/client-dynamodb");
 const { dynamo, TableName } = require('../config/dynamoDB');
 
-  const getUserById = async (userId) => {
+const getUserById = async (userId) => {
   try {
     const result = await dynamo.send(
       new GetItemCommand({
@@ -11,7 +11,7 @@ const { dynamo, TableName } = require('../config/dynamoDB');
     );
 
     if (result.Item) {
-      console.log(` Retrieved user: ${userId}`, result.Item);
+      console.log(`Retrieved user: ${userId}`, result.Item);
       return result.Item;
     } else {
       console.log(`L User not found: ${userId}`);

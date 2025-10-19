@@ -18,5 +18,19 @@ app.use((req, res, next) => {
 // Mount routes
 app.use('/cars', recommendationRoute);
 
-// Start server
-app.listen(3000, () => console.log("Server running on http://localhost:3000"));
+// Start server (locally)
+//app.listen(3000, () => console.log("Server running on http://localhost:3000"));
+
+// leftover from package.json for script
+//"test": "echo \"Error: no test specified\" && exit 1"
+
+// Deploy for render
+const PORT = process.env.PORT || 3000;
+
+app.get('/', (req, res) => {
+  res.send('Hello from Express on Render!');
+});
+
+app.listen(PORT, () => {
+  console.log('Server running on port ${PORT}');
+});
