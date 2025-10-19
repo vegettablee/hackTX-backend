@@ -1,12 +1,15 @@
 require("dotenv").config();
 const express = require("express");
 const {
-  DynamoDBClient,
   PutItemCommand,
   GetItemCommand,
 } = require("@aws-sdk/client-dynamodb");
+const { dynamo, TableName } = require('./config/dynamoDB');
 
 const app = express();
+
+// Import routes
+const recommendationRoute = require('./routes/recommendationRoute');
 
 // Only parse JSON for requests that should have a body
 app.use((req, res, next) => {
@@ -17,20 +20,12 @@ app.use((req, res, next) => {
   }
 });
 
-// ✅ Create DynamoDB client
-const dynamo = new DynamoDBClient({
-  region: process.env.AWS_REGION,
-  credentials: {
-    accessKeyId: process.env.AWS_ACCESS_KEY_ID,
-    secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
-  },
-});
+// Mount routes
+app.use('/api/recommendations', recommendationRoute);
 
 // ✅ Test route
 app.get("/test-db", async (req, res) => {
   try {
-    const TableName = "hackatx_db";
-
     // 1️⃣ Fake data to insert
     const item = {
       id: { S: "TEST#123" },

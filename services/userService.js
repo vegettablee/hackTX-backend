@@ -1,42 +1,29 @@
-// Business logic layer
-class UserService {
-  constructor() {
-    // In-memory storage for prototype (replace with database later)
-    this.users = [];
-  }
+const { GetItemCommand } = require("@aws-sdk/client-dynamodb");
+const { dynamo, TableName } = require('../config/dynamoDB');
 
-  getAllUsers() {
-    return this.users;
-  }
+  const getUserById = async (userId) => {
+  try {
+    const result = await dynamo.send(
+      new GetItemCommand({
+        TableName,
+        Key: { id: { S: userId } },
+      })
+    );
 
-  getUserById(id) {
-    return this.users.find(user => user.id === id);
-  }
-
-  createUser(userData) {
-    const newUser = {
-      id: Date.now().toString(),
-      ...userData
-    };
-    this.users.push(newUser);
-    return newUser;
-  }
-
-  updateUser(id, userData) {
-    const index = this.users.findIndex(user => user.id === id);
-    if (index === -1) return null;
-
-    this.users[index] = { ...this.users[index], ...userData };
-    return this.users[index];
-  }
-
-  deleteUser(id) {
-    const index = this.users.findIndex(user => user.id === id);
-    if (index === -1) return false;
-
-    this.users.splice(index, 1);
-    return true;
+    if (result.Item) {
+      console.log(` Retrieved user: ${userId}`, result.Item);
+      return result.Item;
+    } else {
+      console.log(`L User not found: ${userId}`);
+      return null;
+    }
+  } catch (err) {
+    console.error("L Failed to get user:", err);
   }
 }
 
-module.exports = new UserService();
+const createUser = async (id) => { 
+
+}
+
+module.exports = getUserById, createUser
