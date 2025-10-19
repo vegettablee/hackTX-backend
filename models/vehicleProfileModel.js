@@ -1,6 +1,6 @@
 const VehicleProfileSchema = {
   id : String, 
-  
+
   vehicleDetails: {
     vehicleCondition: String, // 'NEW' or 'USED'
     fuelType: String // 'GAS', 'HYBRID', or 'ELECTRIC'
@@ -12,6 +12,7 @@ const VehicleProfileSchema = {
   vehicleTrim: String,   // 'BASE', 'SPORT', or 'LIMITED'
   vehicleType : String, // SEDAN, SUV, HATCHBACK, or TRUCK
   mileage: Number,
+  
 };
 
 module.exports = VehicleProfileSchema;

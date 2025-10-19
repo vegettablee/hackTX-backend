@@ -16,11 +16,14 @@ app.use((req, res, next) => {
   }
 });
 
-app.use(cors({
+/* app.use(cors({
   origin: "http://localhost:3000",// <-- Replace with your frontend domain
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: false // if you’re using cookies or auth headers
 }));
+*/
+
+app.use(cors());
 
 
 // Mount routes
