@@ -492,5 +492,135 @@
     "vehicleTrim": "LIMITED",
     "vehicleType": "SEDAN",
     "mileage": 37000
+  }, 
+  {
+    "id": "VEHICLE#051",
+    "vehicleDetails": {
+      "vehicleCondition": "USED",
+      "fuelType": "HYBRID"
+    },
+    "msrp": 26500,
+    "vehicleYear": 2020,
+    "vehicleModel": "Toyota RAV4 Hybrid LE",
+    "vehicleTrim": "BASE",
+    "vehicleType": "SUV",
+    "mileage": 36000
+  },
+  {
+    "id": "VEHICLE#052",
+    "vehicleDetails": {
+      "vehicleCondition": "USED",
+      "fuelType": "HYBRID"
+    },
+    "msrp": 27500,
+    "vehicleYear": 2021,
+    "vehicleModel": "Toyota Highlander Hybrid LE",
+    "vehicleTrim": "SPORT",
+    "vehicleType": "SUV",
+    "mileage": 29000
+  },
+  {
+    "id": "VEHICLE#053",
+    "vehicleDetails": {
+      "vehicleCondition": "USED",
+      "fuelType": "HYBRID"
+    },
+    "msrp": 28300,
+    "vehicleYear": 2022,
+    "vehicleModel": "Toyota Venza LE Hybrid",
+    "vehicleTrim": "BASE",
+    "vehicleType": "SUV",
+    "mileage": 26000
+  },
+  {
+    "id": "VEHICLE#054",
+    "vehicleDetails": {
+      "vehicleCondition": "USED",
+      "fuelType": "HYBRID"
+    },
+    "msrp": 29500,
+    "vehicleYear": 2023,
+    "vehicleModel": "Toyota Corolla Cross Hybrid",
+    "vehicleTrim": "SPORT",
+    "vehicleType": "SUV",
+    "mileage": 18000
+  },
+  {
+    "id": "VEHICLE#055",
+    "vehicleDetails": {
+      "vehicleCondition": "USED",
+      "fuelType": "HYBRID"
+    },
+    "msrp": 31000,
+    "vehicleYear": 2023,
+    "vehicleModel": "Toyota RAV4 Hybrid XLE",
+    "vehicleTrim": "LIMITED",
+    "vehicleType": "SUV",
+    "mileage": 15000
+  },
+  {
+    "id": "VEHICLE#056",
+    "vehicleDetails": {
+      "vehicleCondition": "USED",
+      "fuelType": "HYBRID"
+    },
+    "msrp": 32500,
+    "vehicleYear": 2022,
+    "vehicleModel": "Toyota Highlander Hybrid XLE",
+    "vehicleTrim": "LIMITED",
+    "vehicleType": "SUV",
+    "mileage": 27000
+  },
+  {
+    "id": "VEHICLE#057",
+    "vehicleDetails": {
+      "vehicleCondition": "USED",
+      "fuelType": "HYBRID"
+    },
+    "msrp": 33500,
+    "vehicleYear": 2023,
+    "vehicleModel": "Toyota RAV4 Prime SE (Plug-in Hybrid)",
+    "vehicleTrim": "SPORT",
+    "vehicleType": "SUV",
+    "mileage": 22000
+  },
+  {
+    "id": "VEHICLE#058",
+    "vehicleDetails": {
+      "vehicleCondition": "USED",
+      "fuelType": "HYBRID"
+    },
+    "msrp": 32000,
+    "vehicleYear": 2021,
+    "vehicleModel": "Toyota Venza XLE Hybrid",
+    "vehicleTrim": "LIMITED",
+    "vehicleType": "SUV",
+    "mileage": 31000
+  },
+  {
+    "id": "VEHICLE#059",
+    "vehicleDetails": {
+      "vehicleCondition": "USED",
+      "fuelType": "HYBRID"
+    },
+    "msrp": 30500,
+    "vehicleYear": 2020,
+    "vehicleModel": "Toyota RAV4 Hybrid XSE",
+    "vehicleTrim": "SPORT",
+    "vehicleType": "SUV",
+    "mileage": 42000
+  },
+  {
+    "id": "VEHICLE#060",
+    "vehicleDetails": {
+      "vehicleCondition": "USED",
+      "fuelType": "HYBRID"
+    },
+    "msrp": 28500,
+    "vehicleYear": 2019,
+    "vehicleModel": "Toyota Highlander Hybrid XLE",
+    "vehicleTrim": "LIMITED",
+    "vehicleType": "SUV",
+    "mileage": 48000
   }
 ]
