@@ -7,6 +7,8 @@ const UserProfileSchema = {
     income: Number,
     creditScore: Number
   },
+
+  // preferences
   vehicleCondition: String, // 'NEW' or 'USED'
   fuelType: String, // 'GAS', 'HYBRID', or 'ELECTRIC'
   vehicleYearRange: Array // [minYear, maxYear]
