@@ -1,900 +1,173 @@
 [
   {
-    "id": {
-      "S": "VEHICLE#001"
-    },
+    "id": { "S": "VEHICLE#011" },
     "vehicleDetails": {
       "M": {
-        "vehicleCondition": {
-          "S": "NEW"
-        },
-        "fuelType": {
-          "S": "GAS"
-        }
+        "vehicleCondition": { "S": "USED" },
+        "fuelType": { "S": "GAS" }
       }
     },
-    "msrp": {
-      "N": "24500"
-    },
-    "vehicleYear": {
-      "N": "2024"
-    },
-    "vehicleModel": {
-      "S": "Honda Civic"
-    },
-    "vehicleTrim": {
-      "S": "BASE"
-    },
-    "mileage": {
-      "N": "0"
-    },
-    "interestRate": {
-      "N": "5.5"
-    },
-    "termMonths": {
-      "N": "60"
-    },
-    "downPayment": {
-      "N": "3000"
-    }
+    "msrp": { "N": "9500" },
+    "vehicleYear": { "N": "2013" },
+    "vehicleModel": { "S": "Toyota Corolla" },
+    "vehicleTrim": { "S": "BASE" },
+    "mileage": { "N": "110000" },
+    "interestRate": { "N": "6.7" },
+    "termMonths": { "N": "48" },
+    "downPayment": { "N": "1000" }
   },
   {
-    "id": {
-      "S": "VEHICLE#002"
-    },
+    "id": { "S": "VEHICLE#012" },
     "vehicleDetails": {
       "M": {
-        "vehicleCondition": {
-          "S": "USED"
-        },
-        "fuelType": {
-          "S": "HYBRID"
-        }
+        "vehicleCondition": { "S": "USED" },
+        "fuelType": { "S": "HYBRID" }
       }
     },
-    "msrp": {
-      "N": "18900"
-    },
-    "vehicleYear": {
-      "N": "2021"
-    },
-    "vehicleModel": {
-      "S": "Toyota Prius"
-    },
-    "vehicleTrim": {
-      "S": "BASE"
-    },
-    "mileage": {
-      "N": "35000"
-    },
-    "interestRate": {
-      "N": "6.2"
-    },
-    "termMonths": {
-      "N": "48"
-    },
-    "downPayment": {
-      "N": "2500"
-    }
+    "msrp": { "N": "18500" },
+    "vehicleYear": { "N": "2017" },
+    "vehicleModel": { "S": "Toyota Prius" },
+    "vehicleTrim": { "S": "BASE" },
+    "mileage": { "N": "72000" },
+    "interestRate": { "N": "5.8" },
+    "termMonths": { "N": "60" },
+    "downPayment": { "N": "2500" }
   },
   {
-    "id": {
-      "S": "VEHICLE#003"
-    },
+    "id": { "S": "VEHICLE#013" },
     "vehicleDetails": {
       "M": {
-        "vehicleCondition": {
-          "S": "NEW"
-        },
-        "fuelType": {
-          "S": "GAS"
-        }
+        "vehicleCondition": { "S": "NEW" },
+        "fuelType": { "S": "GAS" }
       }
     },
-    "msrp": {
-      "N": "22000"
-    },
-    "vehicleYear": {
-      "N": "2024"
-    },
-    "vehicleModel": {
-      "S": "Mazda 3"
-    },
-    "vehicleTrim": {
-      "S": "SPORT"
-    },
-    "mileage": {
-      "N": "0"
-    },
-    "interestRate": {
-      "N": "5.8"
-    },
-    "termMonths": {
-      "N": "60"
-    },
-    "downPayment": {
-      "N": "2000"
-    }
+    "msrp": { "N": "26500" },
+    "vehicleYear": { "N": "2024" },
+    "vehicleModel": { "S": "Toyota Corolla" },
+    "vehicleTrim": { "S": "SPORT" },
+    "mileage": { "N": "0" },
+    "interestRate": { "N": "4.5" },
+    "termMonths": { "N": "72" },
+    "downPayment": { "N": "3000" }
   },
   {
-    "id": {
-      "S": "VEHICLE#004"
-    },
+    "id": { "S": "VEHICLE#014" },
     "vehicleDetails": {
       "M": {
-        "vehicleCondition": {
-          "S": "NEW"
-        },
-        "fuelType": {
-          "S": "HYBRID"
-        }
+        "vehicleCondition": { "S": "USED" },
+        "fuelType": { "S": "GAS" }
       }
     },
-    "msrp": {
-      "N": "42000"
-    },
-    "vehicleYear": {
-      "N": "2024"
-    },
-    "vehicleModel": {
-      "S": "Toyota Camry Hybrid"
-    },
-    "vehicleTrim": {
-      "S": "LIMITED"
-    },
-    "mileage": {
-      "N": "0"
-    },
-    "interestRate": {
-      "N": "5.0"
-    },
-    "termMonths": {
-      "N": "60"
-    },
-    "downPayment": {
-      "N": "5000"
-    }
+    "msrp": { "N": "21000" },
+    "vehicleYear": { "N": "2020" },
+    "vehicleModel": { "S": "Toyota Camry" },
+    "vehicleTrim": { "S": "BASE" },
+    "mileage": { "N": "54000" },
+    "interestRate": { "N": "5.3" },
+    "termMonths": { "N": "60" },
+    "downPayment": { "N": "3500" }
   },
   {
-    "id": {
-      "S": "VEHICLE#005"
-    },
+    "id": { "S": "VEHICLE#015" },
     "vehicleDetails": {
       "M": {
-        "vehicleCondition": {
-          "S": "USED"
-        },
-        "fuelType": {
-          "S": "GAS"
-        }
+        "vehicleCondition": { "S": "NEW" },
+        "fuelType": { "S": "HYBRID" }
       }
     },
-    "msrp": {
-      "N": "35000"
-    },
-    "vehicleYear": {
-      "N": "2022"
-    },
-    "vehicleModel": {
-      "S": "Honda Accord"
-    },
-    "vehicleTrim": {
-      "S": "SPORT"
-    },
-    "mileage": {
-      "N": "28000"
-    },
-    "interestRate": {
-      "N": "5.5"
-    },
-    "termMonths": {
-      "N": "48"
-    },
-    "downPayment": {
-      "N": "4000"
-    }
+    "msrp": { "N": "34000" },
+    "vehicleYear": { "N": "2024" },
+    "vehicleModel": { "S": "Toyota RAV4 Hybrid" },
+    "vehicleTrim": { "S": "SPORT" },
+    "mileage": { "N": "0" },
+    "interestRate": { "N": "4.2" },
+    "termMonths": { "N": "72" },
+    "downPayment": { "N": "4000" }
   },
   {
-    "id": {
-      "S": "VEHICLE#006"
-    },
+    "id": { "S": "VEHICLE#016" },
     "vehicleDetails": {
       "M": {
-        "vehicleCondition": {
-          "S": "NEW"
-        },
-        "fuelType": {
-          "S": "ELECTRIC"
-        }
+        "vehicleCondition": { "S": "USED" },
+        "fuelType": { "S": "GAS" }
       }
     },
-    "msrp": {
-      "N": "48000"
-    },
-    "vehicleYear": {
-      "N": "2024"
-    },
-    "vehicleModel": {
-      "S": "Chevrolet Bolt EUV"
-    },
-    "vehicleTrim": {
-      "S": "LIMITED"
-    },
-    "mileage": {
-      "N": "0"
-    },
-    "interestRate": {
-      "N": "4.5"
-    },
-    "termMonths": {
-      "N": "72"
-    },
-    "downPayment": {
-      "N": "6000"
-    }
+    "msrp": { "N": "29000" },
+    "vehicleYear": { "N": "2021" },
+    "vehicleModel": { "S": "Toyota Highlander" },
+    "vehicleTrim": { "S": "LIMITED" },
+    "mileage": { "N": "38000" },
+    "interestRate": { "N": "5.0" },
+    "termMonths": { "N": "72" },
+    "downPayment": { "N": "4500" }
   },
   {
-    "id": {
-      "S": "VEHICLE#007"
-    },
+    "id": { "S": "VEHICLE#017" },
     "vehicleDetails": {
       "M": {
-        "vehicleCondition": {
-          "S": "NEW"
-        },
-        "fuelType": {
-          "S": "ELECTRIC"
-        }
+        "vehicleCondition": { "S": "NEW" },
+        "fuelType": { "S": "ELECTRIC" }
       }
     },
-    "msrp": {
-      "N": "75000"
-    },
-    "vehicleYear": {
-      "N": "2024"
-    },
-    "vehicleModel": {
-      "S": "Tesla Model Y"
-    },
-    "vehicleTrim": {
-      "S": "LIMITED"
-    },
-    "mileage": {
-      "N": "0"
-    },
-    "interestRate": {
-      "N": "4.2"
-    },
-    "termMonths": {
-      "N": "72"
-    },
-    "downPayment": {
-      "N": "10000"
-    }
+    "msrp": { "N": "46000" },
+    "vehicleYear": { "N": "2024" },
+    "vehicleModel": { "S": "Toyota bZ4X" },
+    "vehicleTrim": { "S": "SPORT" },
+    "mileage": { "N": "0" },
+    "interestRate": { "N": "4.0" },
+    "termMonths": { "N": "72" },
+    "downPayment": { "N": "6000" }
   },
   {
-    "id": {
-      "S": "VEHICLE#008"
-    },
+    "id": { "S": "VEHICLE#018" },
     "vehicleDetails": {
       "M": {
-        "vehicleCondition": {
-          "S": "USED"
-        },
-        "fuelType": {
-          "S": "GAS"
-        }
+        "vehicleCondition": { "S": "NEW" },
+        "fuelType": { "S": "HYBRID" }
       }
     },
-    "msrp": {
-      "N": "58000"
-    },
-    "vehicleYear": {
-      "N": "2022"
-    },
-    "vehicleModel": {
-      "S": "BMW 3 Series"
-    },
-    "vehicleTrim": {
-      "S": "SPORT"
-    },
-    "mileage": {
-      "N": "22000"
-    },
-    "interestRate": {
-      "N": "5.0"
-    },
-    "termMonths": {
-      "N": "60"
-    },
-    "downPayment": {
-      "N": "8000"
-    }
+    "msrp": { "N": "53000" },
+    "vehicleYear": { "N": "2024" },
+    "vehicleModel": { "S": "Toyota Tacoma Hybrid" },
+    "vehicleTrim": { "S": "LIMITED" },
+    "mileage": { "N": "0" },
+    "interestRate": { "N": "4.3" },
+    "termMonths": { "N": "72" },
+    "downPayment": { "N": "7500" }
   },
   {
-    "id": {
-      "S": "VEHICLE#009"
-    },
+    "id": { "S": "VEHICLE#019" },
     "vehicleDetails": {
       "M": {
-        "vehicleCondition": {
-          "S": "NEW"
-        },
-        "fuelType": {
-          "S": "HYBRID"
-        }
+        "vehicleCondition": { "S": "NEW" },
+        "fuelType": { "S": "GAS" }
       }
     },
-    "msrp": {
-      "N": "62000"
-    },
-    "vehicleYear": {
-      "N": "2024"
-    },
-    "vehicleModel": {
-      "S": "Lexus ES Hybrid"
-    },
-    "vehicleTrim": {
-      "S": "LIMITED"
-    },
-    "mileage": {
-      "N": "0"
-    },
-    "interestRate": {
-      "N": "4.8"
-    },
-    "termMonths": {
-      "N": "60"
-    },
-    "downPayment": {
-      "N": "9000"
-    }
+    "msrp": { "N": "67000" },
+    "vehicleYear": { "N": "2024" },
+    "vehicleModel": { "S": "Toyota Sequoia" },
+    "vehicleTrim": { "S": "LIMITED" },
+    "mileage": { "N": "0" },
+    "interestRate": { "N": "4.0" },
+    "termMonths": { "N": "72" },
+    "downPayment": { "N": "9000" }
   },
   {
-    "id": {
-      "S": "VEHICLE#010"
-    },
+    "id": { "S": "VEHICLE#020" },
     "vehicleDetails": {
       "M": {
-        "vehicleCondition": {
-          "S": "NEW"
-        },
-        "fuelType": {
-          "S": "ELECTRIC"
-        }
+        "vehicleCondition": { "S": "NEW" },
+        "fuelType": { "S": "HYBRID" }
       }
     },
-    "msrp": {
-      "N": "105000"
-    },
-    "vehicleYear": {
-      "N": "2024"
-    },
-    "vehicleModel": {
-      "S": "Mercedes EQS"
-    },
-    "vehicleTrim": {
-      "S": "LIMITED"
-    },
-    "mileage": {
-      "N": "0"
-    },
-    "interestRate": {
-      "N": "4.0"
-    },
-    "termMonths": {
-      "N": "72"
-    },
-    "downPayment": {
-      "N": "15000"
-    }
-  },
-  {
-    "id": {
-      "S": "VEHICLE#011"
-    },
-    "vehicleDetails": {
-      "M": {
-        "vehicleCondition": {
-          "S": "NEW"
-        },
-        "fuelType": {
-          "S": "HYBRID"
-        }
-      }
-    },
-    "msrp": {
-      "N": "29500"
-    },
-    "vehicleYear": {
-      "N": "2024"
-    },
-    "vehicleModel": {
-      "S": "Toyota Corolla Hybrid"
-    },
-    "vehicleTrim": {
-      "S": "BASE"
-    },
-    "mileage": {
-      "N": "0"
-    },
-    "interestRate": {
-      "N": "4.2"
-    },
-    "termMonths": {
-      "N": "60"
-    },
-    "downPayment": {
-      "N": "3500"
-    }
-  },
-  {
-    "id": {
-      "S": "VEHICLE#002"
-    },
-    "vehicleDetails": {
-      "M": {
-        "vehicleCondition": {
-          "S": "USED"
-        },
-        "fuelType": {
-          "S": "GAS"
-        }
-      }
-    },
-    "msrp": {
-      "N": "22500"
-    },
-    "vehicleYear": {
-      "N": "2021"
-    },
-    "vehicleModel": {
-      "S": "Toyota Camry"
-    },
-    "vehicleTrim": {
-      "S": "SPORT"
-    },
-    "mileage": {
-      "N": "28000"
-    },
-    "interestRate": {
-      "N": "5.5"
-    },
-    "termMonths": {
-      "N": "48"
-    },
-    "downPayment": {
-      "N": "2500"
-    }
-  },
-  {
-    "id": {
-      "S": "VEHICLE#003"
-    },
-    "vehicleDetails": {
-      "M": {
-        "vehicleCondition": {
-          "S": "NEW"
-        },
-        "fuelType": {
-          "S": "ELECTRIC"
-        }
-      }
-    },
-    "msrp": {
-      "N": "46000"
-    },
-    "vehicleYear": {
-      "N": "2025"
-    },
-    "vehicleModel": {
-      "S": "Toyota bZ4X"
-    },
-    "vehicleTrim": {
-      "S": "LIMITED"
-    },
-    "mileage": {
-      "N": "0"
-    },
-    "interestRate": {
-      "N": "3.9"
-    },
-    "termMonths": {
-      "N": "72"
-    },
-    "downPayment": {
-      "N": "6000"
-    }
-  },
-  {
-    "id": {
-      "S": "VEHICLE#004"
-    },
-    "vehicleDetails": {
-      "M": {
-        "vehicleCondition": {
-          "S": "USED"
-        },
-        "fuelType": {
-          "S": "HYBRID"
-        }
-      }
-    },
-    "msrp": {
-      "N": "33500"
-    },
-    "vehicleYear": {
-      "N": "2022"
-    },
-    "vehicleModel": {
-      "S": "Toyota RAV4 Hybrid"
-    },
-    "vehicleTrim": {
-      "S": "SPORT"
-    },
-    "mileage": {
-      "N": "21000"
-    },
-    "interestRate": {
-      "N": "4.8"
-    },
-    "termMonths": {
-      "N": "60"
-    },
-    "downPayment": {
-      "N": "4000"
-    }
-  },
-  {
-    "id": {
-      "S": "VEHICLE#005"
-    },
-    "vehicleDetails": {
-      "M": {
-        "vehicleCondition": {
-          "S": "NEW"
-        },
-        "fuelType": {
-          "S": "GAS"
-        }
-      }
-    },
-    "msrp": {
-      "N": "39500"
-    },
-    "vehicleYear": {
-      "N": "2024"
-    },
-    "vehicleModel": {
-      "S": "Toyota Tacoma"
-    },
-    "vehicleTrim": {
-      "S": "LIMITED"
-    },
-    "mileage": {
-      "N": "0"
-    },
-    "interestRate": {
-      "N": "5.0"
-    },
-    "termMonths": {
-      "N": "72"
-    },
-    "downPayment": {
-      "N": "5500"
-    }
-  },
-  {
-    "id": {
-      "S": "VEHICLE#006"
-    },
-    "vehicleDetails": {
-      "M": {
-        "vehicleCondition": {
-          "S": "USED"
-        },
-        "fuelType": {
-          "S": "GAS"
-        }
-      }
-    },
-    "msrp": {
-      "N": "18500"
-    },
-    "vehicleYear": {
-      "N": "2019"
-    },
-    "vehicleModel": {
-      "S": "Toyota Yaris"
-    },
-    "vehicleTrim": {
-      "S": "BASE"
-    },
-    "mileage": {
-      "N": "43000"
-    },
-    "interestRate": {
-      "N": "6.1"
-    },
-    "termMonths": {
-      "N": "36"
-    },
-    "downPayment": {
-      "N": "1500"
-    }
-  },
-  {
-    "id": {
-      "S": "VEHICLE#007"
-    },
-    "vehicleDetails": {
-      "M": {
-        "vehicleCondition": {
-          "S": "NEW"
-        },
-        "fuelType": {
-          "S": "HYBRID"
-        }
-      }
-    },
-    "msrp": {
-      "N": "51000"
-    },
-    "vehicleYear": {
-      "N": "2025"
-    },
-    "vehicleModel": {
-      "S": "Toyota Highlander Hybrid"
-    },
-    "vehicleTrim": {
-      "S": "LIMITED"
-    },
-    "mileage": {
-      "N": "0"
-    },
-    "interestRate": {
-      "N": "4.3"
-    },
-    "termMonths": {
-      "N": "72"
-    },
-    "downPayment": {
-      "N": "7000"
-    }
-  },
-  {
-    "id": {
-      "S": "VEHICLE#008"
-    },
-    "vehicleDetails": {
-      "M": {
-        "vehicleCondition": {
-          "S": "USED"
-        },
-        "fuelType": {
-          "S": "HYBRID"
-        }
-      }
-    },
-    "msrp": {
-      "N": "27000"
-    },
-    "vehicleYear": {
-      "N": "2021"
-    },
-    "vehicleModel": {
-      "S": "Toyota Prius"
-    },
-    "vehicleTrim": {
-      "S": "SPORT"
-    },
-    "mileage": {
-      "N": "33000"
-    },
-    "interestRate": {
-      "N": "5.2"
-    },
-    "termMonths": {
-      "N": "60"
-    },
-    "downPayment": {
-      "N": "3000"
-    }
-  },
-  {
-    "id": {
-      "S": "VEHICLE#009"
-    },
-    "vehicleDetails": {
-      "M": {
-        "vehicleCondition": {
-          "S": "NEW"
-        },
-        "fuelType": {
-          "S": "GAS"
-        }
-      }
-    },
-    "msrp": {
-      "N": "57000"
-    },
-    "vehicleYear": {
-      "N": "2024"
-    },
-    "vehicleModel": {
-      "S": "Toyota Tundra"
-    },
-    "vehicleTrim": {
-      "S": "LIMITED"
-    },
-    "mileage": {
-      "N": "0"
-    },
-    "interestRate": {
-      "N": "4.7"
-    },
-    "termMonths": {
-      "N": "72"
-    },
-    "downPayment": {
-      "N": "8000"
-    }
-  },
-  {
-    "id": {
-      "S": "VEHICLE#020"
-    },
-    "vehicleDetails": {
-      "M": {
-        "vehicleCondition": {
-          "S": "USED"
-        },
-        "fuelType": {
-          "S": "HYBRID"
-        }
-      }
-    },
-    "msrp": {
-      "N": "38500"
-    },
-    "vehicleYear": {
-      "N": "2022"
-    },
-    "vehicleModel": {
-      "S": "Toyota Sienna Hybrid"
-    },
-    "vehicleTrim": {
-      "S": "SPORT"
-    },
-    "mileage": {
-      "N": "18000"
-    },
-    "interestRate": {
-      "N": "4.9"
-    },
-    "termMonths": {
-      "N": "60"
-    },
-    "downPayment": {
-      "N": "5000"
-    }
-  },
-  {
-    "id": {
-      "S": "VEHICLE#021"
-    },
-    "vehicleDetails": {
-      "M": {
-        "vehicleCondition": {
-          "S": "NEW"
-        },
-        "fuelType": {
-          "S": "HYBRID"
-        }
-      }
-    },
-    "msrp": {
-      "N": "29500"
-    },
-    "vehicleYear": {
-      "N": "2024"
-    },
-    "vehicleModel": {
-      "S": "Toyota Corolla Hybrid"
-    },
-    "vehicleTrim": {
-      "S": "BASE"
-    },
-    "mileage": {
-      "N": "0"
-    },
-    "interestRate": {
-      "N": "4.2"
-    },
-    "termMonths": {
-      "N": "60"
-    },
-    "downPayment": {
-      "N": "3500"
-    }
-  },
-  {
-    "id": {
-      "S": "VEHICLE#002"
-    },
-    "vehicleDetails": {
-      "M": {
-        "vehicleCondition": {
-          "S": "USED"
-        },
-        "fuelType": {
-          "S": "GAS"
-        }
-      }
-    },
-    "msrp": {
-      "N": "22500"
-    },
-    "vehicleYear": {
-      "N": "2021"
-    },
-    "vehicleModel": {
-      "S": "Toyota Camry"
-    },
-    "vehicleTrim": {
-      "S": "SPORT"
-    },
-    "mileage": {
-      "N": "28000"
-    },
-    "interestRate": {
-      "N": "5.5"
-    },
-    "termMonths": {
-      "N": "48"
-    },
-    "downPayment": {
-      "N": "2500"
-    }
-  },
-  {
-    "id": {
-      "S": "VEHICLE#003"
-    },
-    "vehicleDetails": {
-      "M": {
-        "vehicleCondition": {
-          "S": "NEW"
-        },
-        "fuelType": {
-          "S": "ELECTRIC"
-        }
-      }
-    },
-    "msrp": {
-      "N": "46000"
-    },
-    "vehicleYear": {
-      "N": "2025"
-    },
-    "vehicleModel": {
-      "S": "Toyota bZ4X"
-    },
-    "vehicleTrim": {
-      "S": "LIMITED"
-    },
-    "mileage": {
-      "N": "0"
-    },
-    "interestRate": {
-      "N": "3.9"
-    },
-    "termMonths": {
-      "N": "72"
-    },
-    "downPayment": {
-      "N": "6000"
-    }
+    "msrp": { "N": "89000" },
+    "vehicleYear": { "N": "2024" },
+    "vehicleModel": { "S": "Toyota Land Cruiser" },
+    "vehicleTrim": { "S": "LIMITED" },
+    "mileage": { "N": "0" },
+    "interestRate": { "N": "3.7" },
+    "termMonths": { "N": "84" },
+    "downPayment": { "N": "12000" }
   },
   {
     "id": {
